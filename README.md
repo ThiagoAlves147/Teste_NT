@@ -6,7 +6,7 @@ Um simulador de ligação, o qual simula o valor que irá ficar determinada liga
 
 # Baixando repositório
 
-git clone https://github.com/ThiagoAlves147/Teste_NT
+git clone https://github.com/ThiagoAlves147/Teste_NT.git
 
 # Docker
 
