@@ -1,40 +1,21 @@
 <?php
 
 class Simulator {
-    private $origin;
-    private $destiny;
-    private $minutes;
     private $plan;
     private $planValue;
-    private $withPlan;
-    private $noPlan;
-
-    public function getOrigin(){
-        return $this -> origin;
-    }
-    public function setOrigin($origin){
-        $this -> origin = $origin;
-    }
-
-    public function getDestiny(){
-        return $this -> destiny;
-    }
-    public function setDestiny($destiny){
-        $this -> destiny = $destiny;
-    }
 
     public function getPlan(){
-        return $this -> plan;
+        return $this -> plan; //Retorna o nome do plano
     }
     public function setPlan($plan){
-        $this -> plan = $plan;
+        $this -> plan = $plan; //Pega o nome do plano
     }
 
     public function getPlanValue(){
-        return $this -> planValue;
+        return $this -> planValue; //Retorna o valor do plano
     }
     public function setPlanValue($planValue){
-        $this -> planValue = $planValue;
+        $this -> planValue = $planValue; //Pega o valor do plano
     }
 }
 
