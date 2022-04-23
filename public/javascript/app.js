@@ -30,12 +30,12 @@ let validar = {
                 switch(detalhes[0]){
                     case 'required':
                         if(input.value.trim() == ''){
-                            return 'Este campo é obrigátorio'
+                            return 'This field is required'
                         }
                     break
                     case 'min':
                         if(input.value < detalhes[1]){
-                            return 'Tempo precisar ser maior que 0'
+                            return 'Time needs to be greater than 0'
                         }
                     break
                 }
@@ -71,3 +71,9 @@ let validar = {
 let form = document.querySelector('.validate')
 
 form.addEventListener('submit', validar.handleSubmit)
+
+// ===============================================================
+
+document.querySelector('#close').addEventListener('click', (e) => {
+    document.querySelector('.warning').style.display = "none";
+})
