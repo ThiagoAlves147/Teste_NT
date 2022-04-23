@@ -10,7 +10,7 @@ git clone https://github.com/ThiagoAlves147/Teste_NT.git
 
 # Docker
 
-## Execuxão
+## Execução
 
 docker-compose up -d || docker-compose up
 
@@ -56,8 +56,8 @@ INSERT INTO `simulator` (`id`, `origem`, `destino`, `taxa_min`) VALUES
 
 ## Layout 
 
-![image](https://user-images.githubusercontent.com/91577622/164887200-973f11f4-7c45-4a8f-9563-f73e3f68a2ab.png)
-![image](https://user-images.githubusercontent.com/91577622/164887247-3eab8617-b9a2-4cfd-ba58-209be8935a0d.png)
+![image](https://user-images.githubusercontent.com/91577622/164888430-87c78325-400c-44c4-8ff0-acea642add20.png)
+![image](https://user-images.githubusercontent.com/91577622/164888408-7fd76d5c-4aa2-43c1-b4ba-7c0fb499642e.png)
 
 # Tecnologias utilizadas
 - PHP
