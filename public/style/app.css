@@ -56,10 +56,6 @@ body {
     color: #080677;
 }
 
-.main-content {
-
-}
-
 .select {
     font-size: 16px;
     margin-top: 15px;
@@ -114,4 +110,45 @@ select:focus, input:focus {
     text-align: start;
     color: red;
     padding: 2px;
+}
+
+/* ========================= RESPONSIVIDADE ========================= */
+
+@media (max-width: 500px) and (max-height: 1000px){
+   
+    .main-container {
+        width: 100%;
+    }
+
+    .result {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .plan {
+        width: 100%;
+    }
+
+    #plan {
+        border-bottom: 1px white solid;
+    }
+
+    .show-result {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (min-width: 501px) and (max-width: 640px) {
+
+    .main-container {
+        width: 60%;
+    }
+
+    .result {
+        width: 60%;
+        font-size: 18px;
+    }
+
 }

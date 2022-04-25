@@ -97,7 +97,7 @@
         </div>
 
         <div class="show-result">
-            <div class="plan">
+            <div class="plan" id="plan">
                 With speak more
                 <br><br>
                 <?php //Verifica se a session existe, caso exista irá exibir o valor da simulação com o plano
@@ -108,7 +108,7 @@
                     }
                 ?>
             </div>
-
+            
             <div class="plan">
                 Without speak more
                 <br><br>

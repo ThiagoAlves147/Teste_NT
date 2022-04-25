@@ -20,6 +20,8 @@ services:
       - "3306:3306"
     volumes:
       - db_data:/var/lib/mysql
+      - ./setup.sql:/docker-entrypoint-initdb.d/setup.sql
+
     environment: 
       - MYSQL_DATABASE=db_testeNT
       - MYSQL_USER=thiago
